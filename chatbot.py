@@ -1,4 +1,5 @@
 import google.generativeai.types.generation_types as gen_types
+import google.generativeai as genai
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
